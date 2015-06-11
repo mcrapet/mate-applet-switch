@@ -1,0 +1,12 @@
+[Applet Factory]
+Id=SwitchAppletFactory
+Location=@LIBEXECDIR@/switch_applet
+Name=Switch Factory
+Description=Switch Factory
+
+[SwitchApplet]
+Name=Switch Applet
+Name[fr_FR]=Applet de permutation
+Description=Toggle execution of two commands
+Description[fr_FR]=Permute l'execution de deux commandes
+Icon=terminal

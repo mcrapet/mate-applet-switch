@@ -1,0 +1,16 @@
+INSTALLATION
+============
+
+On a apt-like distro, you'll need:
+$ sudo apt-get install libmate-panel-applet-dev
+
+$ ./autoconf.sh
+$ ./configure --prefix=/usr
+$ make
+$ sudo make install
+
+
+UNINSTALL
+========
+
+make uninstall

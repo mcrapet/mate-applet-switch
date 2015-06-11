@@ -1,0 +1,19 @@
+<schemalist gettext-domain="@GETTEXT_PACKAGE@">
+  <schema id="org.mate.panel.applet.SwitchApplet">
+    <key name="command0" type="s">
+      <default>'touch /tmp/f1'</default>
+      <summary>Command0 to execute</summary>
+      <description>Command/script to execute.</description>
+    </key>
+    <key name="command1" type="s">
+      <default>'touch /tmp/f2'</default>
+      <summary>Command1 to execute</summary>
+      <description>Command/script to execute.</description>
+    </key>
+    <key name="stdout" type="b">
+      <default>false</default>
+      <summary>Show stdout label</summary>
+      <description>Display stdout of executed command in a label of panel.</description>
+    </key>
+  </schema>
+</schemalist>

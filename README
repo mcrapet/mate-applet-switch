@@ -1,0 +1,17 @@
+MATE switch applet
+==================
+
+This is a MATE 1.7+ panel applet to toggle two shells commands.
+
+I use it for my BEPO (Dvorak-like) practice:
+Command1: setxkbmap fr oss
+Command2: setxkbmap fr bepo
+
+This is my first attemp at writing an applet (and using GTK). It is based on "command applet".
+Don't hesitate to reports bugs, comments via GitHub.
+
+TODO
+====
+- applet startup & dynamic orientation (change_orient)
+- applet dynamic resize (change_size)
+- gettext (internationalization)

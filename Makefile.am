@@ -1,0 +1,5 @@
+SUBDIRS = src images
+
+EXTRA_DIST = INSTALL COPYING
+
+dist_doc_DATA = README
