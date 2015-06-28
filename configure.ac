@@ -4,6 +4,7 @@ AC_INIT([mate-applet-switch], [0.0.1], [mcrapet@gmail.com], [mate-applet-switch]
 AC_CONFIG_HEADERS([config.h])
 AM_INIT_AUTOMAKE([1.9 tar-ustar dist-xz no-dist-gzip foreign no-define])
 AC_CONFIG_MACRO_DIR(m4)
+AM_SILENT_RULES([yes])
 
 dnl Checks for programs
 AC_PROG_CC
@@ -20,6 +21,7 @@ dnl   AC_MSG_WARN(["gettext not found. You're losing internationalization."])
 dnl fi
 
 dnl Use pkg-config to check for dependencies
+PKG_PROG_PKG_CONFIG
 GLIB_REQUIRED=2.22.0
 GIO_REQUIRED=2.15.3
 LIBPANEL4_REQUIRED=1.7.0

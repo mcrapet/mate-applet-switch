@@ -1,10 +1,18 @@
 INSTALLATION
 ============
 
-On a apt-like distro, you'll need:
-$ sudo apt-get install libmate-panel-applet-dev
+Required dependencies
+---------------------
+On an apt-like distro, you'll need:
+# apt-get install libmate-panel-applet-dev
 
-$ ./autoconf.sh
+On Arch linux:
+# pacman -S autoconf automake make gcc pkg-config glib2 mate-panel
+
+Compilation
+-----------
+
+$ ./autogen.sh
 $ ./configure --prefix=/usr
 $ make
 $ sudo make install
@@ -13,4 +21,4 @@ $ sudo make install
 UNINSTALL
 ========
 
-make uninstall
+$ make uninstall
