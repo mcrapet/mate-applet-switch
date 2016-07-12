@@ -7,7 +7,7 @@ I use it for my BEPO (Dvorak-like) practice:
 Command1: setxkbmap fr oss
 Command2: setxkbmap fr bepo
 
-This is my first attemp at writing an applet (and using GTK). It is based on "command applet".
+This is my first attempt at writing an applet (and using GTK). It is based on "command applet".
 Don't hesitate to reports bugs, comments via GitHub.
 
 TODO
