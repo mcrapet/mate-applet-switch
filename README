@@ -7,6 +7,9 @@ I use it for my BEPO (Dvorak-like) practice:
 Command1: setxkbmap fr oss
 Command2: setxkbmap fr bepo
 
+Extra note: setxkbmap could already deal with toggle (Alt+Shift) and while pressed (Right Win key) using:
+$ setxkbmap -option grp:rwin_switch,grp:alt_shift_toggle -variant oss,bepo -layout fr,fr
+
 This is my first attempt at writing an applet (and using GTK). It is based on "command applet".
 Don't hesitate to reports bugs, comments via GitHub.
 
